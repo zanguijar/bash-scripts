@@ -1,6 +1,10 @@
 #!/bin/bash
 
-# Automate SSH Configuration
+# Automate SSH Configuration, This script has been develop for working in a factory new:
+# Ubuntu 24.04.1 LTS (GNU/Linux 6.8.0-1019-aws x86_64)
+# You may take care about aditional configuration on AWS Security Groups (in this scenario)
+# This has absolutely no warranty, you must check this before running in your server.
+# You should not use this in production servers or data sensitive target (JUST FOR FACTORY NEW...)
 
 # Allow the default SSH port 22 (we'll fix this later)
 echo "Allowing default SSH port 22..."
